@@ -16,36 +16,39 @@ A simple yet feature-rich **Home Automation System** built with Python, featurin
 
 ---
 
-## 🚀 Installation
-2️⃣ Install dependencies
-1.pip install -r requirements.txt
-Note: On Raspberry Pi, also run:
-2.pip install RPi.GPIO
+## 🚀 Installation      
+**Install dependencies:** *pip install -r requirements.txt*     
+>[!TIP]
+>**Note:** On Raspberry Pi,   
+also run: *pip install RPi.GPIO*
 
-▶ Usage
+▶ **Usage :**   
 python home_automation.py
 
-🎙 Voice Commands
-Examples:
-Turn on light
-Turn off fan
-Switch on AC
+**🎙 Voice Commands:**  
+Examples:  
+*Turn on light,   
+*Turn off fan,   
+*Switch on AC.  
 
-🌐 MQTT Setup
-The project uses a public broker:
-1.Broker: test.mosquitto.org
-2.Topic: home/demo/device
+**🌐 MQTT Setup:**  
+The project uses a public broker:  
+1.Broker: test.mosquitto.org  
+2.Topic: home/demo/device  
 
-🔌 Raspberry Pi GPIO Mapping
-    Device	GPIO Pin
-    Light   	17
-    Fan	      27
-    AC	      22
-    TV	      23
+```
+**🔌 Raspberry Pi GPIO Mapping**   
+
+    **Device**	**GPIO Pin**
+     Light   	  17
+     Fan	      27
+     AC	          22
+     TV	          23
+
 
 
 
 ### 1️⃣ Clone the repository
-```bash
+bash
 git clone https://github.com/kavya0104/home-automation-demo.git
 cd home-automation-demo
